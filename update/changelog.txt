@@ -1,0 +1,233 @@
+### Tempest Changelog
+-----------------------
+
+## rv2.0.0.0
+
+  * New Synchrotron module added for parallel/synchronous grabbing
+  * New Proxy option added to Channel Generator
+  * New Proxy command added to CLI mode for channel creating
+  * New Channel Group Proxy option added into Configurator
+  * New ||#dynamic# command added to Index Grabbers for dynamic capturing on keepindex sources
+  * Proxy option improved for using Tempest commands
+  * Minor bug fixed on Fusion module
+  * Minor bug fixed on auto-correction function of showicon element
+  * Minor bug fixed on culture settings
+  * Predefined user-agent string updated to latest Chrome
+  
+## rv1.7.0.0
+
+  * New XMLMerger module added
+  * New simplified CLI command syntax (!Important!)
+  * New hidden cyclone channel search bars added into Configurator
+  * New Proceed-on-Error url option added into Siteconfig Maker/Editor
+  * Moderate bug fixed on channel name modifier CLI command
+  * Minor bug fixed on Siteconfig Debugger
+  * Minor bug fixed on Rating Icons
+  * Minor bug fixed on Cookie headers
+  * Predefined user-agent string updated to latest Chrome
+  * Improvement on Missing Module Checker for hosting service
+  * Improvement on speed and memory usage of Inverter Module
+  * Improvement on Url Grabbers
+  * Improvement on File Downloaders
+  * Improvement on Debug Into File option
+  * Improvement on overall performance
+  
+## rv1.6.2.1
+
+  * Moderate bug fix on Inverter Module
+  
+## rv1.6.2.0
+
+  * New static url option added to make single request on flagged urls and store variable values captured from them when following channel(s) belong to same siteconfig.
+  * Some improvements for detail page grabbing on 7.1 days siteconfigs
+  * Some improvements for stop time handling on duplicated show blocks
+  
+## rv1.6.1.1
+
+!!Emergency Update!!
+
+  * Critical bug fixed that effects php8 users for missing xmltv elements
+  * Some improvements for better php8 integration
+  
+## rv1.6.1.0
+
+  * New showicon keyword added into Inverter module in order to modify/move showicon elements
+  * New image keyword added into Inverter module in order to modify/move image elements (This feature can be used to convert icon tags into image tags or vice versa for icon/image tag non-supported players)
+  * New encoding solution for Windows-1250 charset added
+  * Moderate bug fixed on split command with unicode characters
+  * Moderate bug fixed on Fusion module file naming
+  * Minor bug fixed on Inverter module
+  * Minor bug fixed on Channel Debugger with userkey
+  * Minor bug fixed on time conversion
+  * Minor bug fixed on core command module
+  * Minor bug fixed on actor/role matching
+  * Minor bug fixed due to php mbstring library
+  * For edit and replace commands, preg /s modifier set as default flag
+  * Channel search bars improved
+  * Some improvements for subpage url error handling
+  * Some improvements for non UTF-8 character handling
+  * Some improvements for grabbing engine
+  * Relaxation on file naming(siteconfig, epg file etc.) for Non-Basic Latin Unicode blocks
+  * Jquery library is updated to latest version
+  * Predefined user-agent string updated to latest Chrome
+
+## rv1.6.0.0
+
+  * Genereted EPG and Log files moved under "tempest_config" folder into new "epg" and "log" sub folders for docker integration
+  * Major bug fixed on Cli channel creation with userkey parameter
+  * Some improvements for docker integration
+  * Note: This release is the milestone of Tempest development for upcoming docker support
+
+## rv1.5.4.0
+
+  * New Tempest Updater module added to update version on GUI and CLI modes
+  * New channel search box added into Tempest Debugger
+  * Allowed max siteconfig size limit increased
+  * Some improvements for better session handling on webkit browsers
+  
+## rv1.5.3.0
+
+  * Major memory optimization for Tempest Configurator
+  * Major update on debug into file module
+  * New Logger File Name option added into Tempest Configurator in order to set different log filenames for different Configurations
+  * Minor bug fixed on logo command
+  * Minor bug fixed on range command when used inside stopdate
+  * Minor bug fixed on Siteconfig Maker/Editor
+  * Minor bug fixed on Channel Creation Debugger
+  * Some improvement for php8 integration
+  * Some improvement on set command for channel creation
+  * Predefined user-agent string updated to latest Chrome
+  
+## rv1.5.2.0
+
+  * New Channel Name Modifier added to Channel Generator for modifying generated channel names/xmltv_ids of locked siteconfigs
+  * Moderate bug on Tempest Configurator fixed
+  * Minor bug on CLI channel creation fixed
+  * Minor bug on offset command for cyclone mode fixed
+  * Minor bug on Siteconfig Maker/Editor fixed
+  * Moderate improvement on Module Checker
+  * Moderate improvement for php8 integration
+  * Predefined user-agent string updated to latest Chrome
+
+## rv1.5.1.0
+
+  * New search bars added to Tempest Configurator for channel filtering
+  * Moderate bug fixed on compression setting
+  * Minor bug fixed on post data string
+  * Minor bug fixed on offset command
+  * Jquery library is updated to latest version
+  * Improvement on module checker including problems related with hosting services
+  * Improvement on error handling for folder read/write permissions(UNIX only)
+  * Improvement command line(cli) channel creation
+  * Improvement on convert command
+  * Improvement on page grabbers
+
+## rv1.5.0.0
+
+  * New logo command added to allow users set their channel logos from Tempest Configurator for every channel
+  * New CLI (Command Line Interface) option added for channel creation operations
+  * New Siteconfig Updater module added to download latest siteconfig package as zip file to local storage
+  * Post data handling for new line feeds improved (\n|\xn)
+  * Predefined user-agent string updated to latest Chrome
+  * Minor improvement on grabbing engine for show times
+  * Minor improvement for mobile device screens
+  * Minor improvement on Debugger for show element display
+  * Minor changes for better PHP8 integration
+  * Minor changes on Tempest Configurator for better browser integration
+
+## rv1.4.2.0
+
+  * Image element added to show grabbing options as an alternative to Showicon
+  * Duplicate Channel Id Remover option added to Channel Generator
+  * Duplicate Channel Name Remover option added to Channel Generator
+  * Past Day Remover option improved to eleminate delays on detail pages
+  * Roman command improved to calculate complex roman numbers
+  * Minor bug fixed on cctag value when it is set to 0
+  * Minor bug fixed on ccsubpage value when it is set to 0
+  * Minor bug fixed on url grabbers
+
+## rv1.4.1.0
+
+  * New urle command added to urlencode full or needed part of captured data
+  * New urld command added to urldecode full or needed part of captured data
+  * Urlencode/decode options deprecated from Siteconfig Maker and Editor
+  * Minor bug fixed on show blocks parsing
+  * Minor bug fixed on show debugger
+  * Minor bug fixed on Siteconfig Editor's html source code
+  * Minor bug fixed on bankai function
+  * Minor improvements on Channel Creation module to handle remote server errors
+  
+## rv1.4.0.1
+
+  * Minor bug fixed on duplicate show date verification
+  * Minor bug fixed on channel creation logo pattern
+  * Minor bug fixed on channel creation grabbers
+  * Minor bug fixed on edit command
+  * PHP date format reference link updated
+  
+## rv1.4.0.0
+
+  * New Inverter module (with Voltage Regulator) deployed to allow users full modification and command usage over generated xml as per needs (Please see TempestWIKI)
+  * New delete command added for new Inverter module to permanently delete unwanted elements
+  * New edit command added to modify url response(s) prior to block/element parsing operations
+  * New channel-lister option added to Tempest Configurator in order to move channel tags to top of generated file for using with old and/or improperly coded applications which cannot parse channels unless they are in a fixed top position
+  * Sameas/offset command time values changed to minute for more precision on adjustment
+  * Minor improvement on url/stop date calculations
+  * Predefined user-agent string updated to latest Chrome
+
+## rv1.3.4.2
+
+  * Minor javascript bug fixed on Tempest Configurator
+  * Minor bug fixed on detail page grabbers
+  * Minor bug fixed on index-only grabbing mode
+  * Fusion module performance improved
+  * Url grabber performance on subpage improved
+  * Url tag inside channel element has been deprecated as per latest xmltv.dtd
+  * New lcn command added to create channel lcn tags which are required for channel mapping of some pvrs
+  * Debug into txt file option added
+
+## rv1.3.4.1
+
+  * Minor bug fixed in sort function
+  * Minor bug fixed on detail page grabbers
+  * Minor bug fixed on "daylist" time format
+  * Minor bug fixed on "counter" operator when used in channel creation logo pattern
+  * Minor bug fixed on Tempest Configurator/Channel Indexer
+  * New Unixg time operator added for unix timestamp creation with GMT offset
+  * New Javag time operator added for java timestamp creation with GMT offset
+
+## rv1.3.4.0
+
+  * Minor bug fixed on date calculation of fusion module
+  * Minor bug fixed on temprorary file naming of fusion module
+  * Repeat command improved to work with non-speacial patterns
+  * Channel Block option added to Siteconfig Debugger
+  * Siteconfig Debugger performance improved
+  * Url grabbers modified to merge their capture values on subpage requests
+  * Range operator improved to calculate dates on non-regular date patterns
+  
+## rv1.3.3.0
+
+  * New b64e command added
+  * New b64d command added
+  * Calculate command improved for decimal numbers
+  * Channel id and custom channel id added to debugger for channel creation url calls for integration with Schedules Direct.org
+  * Minor changes and improvements
+
+## rv1.3.2.0
+
+  * Minor bug fixed on total created channel calculation when no channel created
+  * fileinfo, json & hash extensions have been added to scope of module checker
+  * Control range of module checker is extended
+  * Jquery library is updated to latest version
+  * Major bug fixed which was preventing to save configurations on Firefox browsers
+  * Siteconfig debugger is updated to use real xmltv_id instead of dummy
+  * md5 command and operator is deprecated
+  * New hash command is added
+  * New merge command is added
+  * New range operator is added
+
+## rv1.3.1.0
+
+  * Small bug which prevents higher grade url grabber call (||#urlX#), fixed
+  * Small bug which prevents higher grade url grabber debug, fixed
