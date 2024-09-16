@@ -1,6 +1,25 @@
 ### Tempest Changelog
 -----------------------
 
+## rv2.1.0.0
+
+  * New improved and faster encryption module added
+!!IMPORTANT!! [ENC] and [ENC][EX] siteconfigs which are generated/modified after this release, will not work with previous Tempest versions
+  * New Changelog added into Tempest Updater
+  * Minor bug fixed on Configurator which prevents saving only if single channel is selected
+  * Minor bug fixed on Synchrotron module
+  * Minor bug fixed on Detail Page delay options
+  * Minor bug fixed on Url Grabbers
+  * Minor bug fixed on Configurator file loader
+  * Minor bug fixed on Debugger stoptime calculation
+  * Remark box switched to textarea tag for multiline support
+  * Default allowed siteconfig size limit increased
+  * Unixg and javag timestamp format options added into ##now## operator
+  * Configurator form delay options changed to numeric input format
+  * Index and Detail Page delay options added into Debugger
+  * Predefined user-agent string usage prioritized when no string defined in siteconfig and configuration files
+  * Predefined user-agent string updated to latest Chrome
+
 ## rv2.0.0.0
 
   * New Synchrotron module added for parallel/synchronous grabbing
