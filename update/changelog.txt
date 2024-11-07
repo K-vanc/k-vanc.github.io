@@ -1,6 +1,15 @@
 ### Tempest Changelog
 -----------------------
 
+## rv2.2.0.0
+
+  * New ||#indexonly# command added to xmltv_id value for ignoring detail page grabbing of specified channels
+  * New ||#scope# command added to show and channel block elements for increasing accuracy on data block capturing
+  * Moderate bug fixed on file downloaders which prevents downloading of requested file(s)
+  * Some improvements on post data handling (\r\t|\xr\xt)
+  * Some improvements for better php8 integration
+  * Predefined user-agent string updated to latest Chrome
+
 ## rv2.1.0.0
 
   * New improved and faster encryption module added
@@ -143,7 +152,7 @@
 
 ## rv1.5.0.0
 
-  * New logo command added to allow users set their channel logos from Tempest Configurator for every channel
+  * New ||#logo# command added to allow users set their channel logos from Tempest Configurator for every channel
   * New CLI (Command Line Interface) option added for channel creation operations
   * New Siteconfig Updater module added to download latest siteconfig package as zip file to local storage
   * Post data handling for new line feeds improved (\n|\xn)
@@ -167,8 +176,8 @@
 
 ## rv1.4.1.0
 
-  * New urle command added to urlencode full or needed part of captured data
-  * New urld command added to urldecode full or needed part of captured data
+  * New ||#urle# command added to urlencode full or needed part of captured data
+  * New ||#urld# command added to urldecode full or needed part of captured data
   * Urlencode/decode options deprecated from Siteconfig Maker and Editor
   * Minor bug fixed on show blocks parsing
   * Minor bug fixed on show debugger
@@ -188,7 +197,7 @@
 
   * New Inverter module (with Voltage Regulator) deployed to allow users full modification and command usage over generated xml as per needs (Please see TempestWIKI)
   * New delete command added for new Inverter module to permanently delete unwanted elements
-  * New edit command added to modify url response(s) prior to block/element parsing operations
+  * New ||#edit# command added to modify url response(s) prior to block/element parsing operations
   * New channel-lister option added to Tempest Configurator in order to move channel tags to top of generated file for using with old and/or improperly coded applications which cannot parse channels unless they are in a fixed top position
   * Sameas/offset command time values changed to minute for more precision on adjustment
   * Minor improvement on url/stop date calculations
@@ -227,8 +236,8 @@
   
 ## rv1.3.3.0
 
-  * New b64e command added
-  * New b64d command added
+  * New ||#b64e# command added
+  * New ||#b64d# command added
   * Calculate command improved for decimal numbers
   * Channel id and custom channel id added to debugger for channel creation url calls for integration with Schedules Direct.org
   * Minor changes and improvements
@@ -242,8 +251,8 @@
   * Major bug fixed which was preventing to save configurations on Firefox browsers
   * Siteconfig debugger is updated to use real xmltv_id instead of dummy
   * md5 command and operator is deprecated
-  * New hash command is added
-  * New merge command is added
+  * New ||#hash# command is added
+  * New ||#merge# command is added
   * New range operator is added
 
 ## rv1.3.1.0
