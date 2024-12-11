@@ -1,6 +1,22 @@
 ### Tempest Changelog
 -----------------------
 
+## rv2.2.1.0
+
+  * Minor bug fixed on Changelog displaying
+  * Minor bug fixed on Configuration file handling
+  * Improvement on download speed of Siteconfig Updater
+  * Improvement on Synchrotron module for better management of multiple instances
+  * Improvement on Synchrotron module performance for faster Fusion module clean-up
+  * Improvement on Synchrotron module for better error handling
+  * Improvement on Curl error handling
+  * Improvement on Cookie file handling
+  * Improvement on Culture code handling
+  * Improvement on multiple element grabbers
+  * Inverter-path box switched to textarea tag for multiline support and easier usage
+  * Predefined error-reporting level updated to display fatal errors
+  * Predefined user-agent string updated to latest Chrome
+
 ## rv2.2.0.0
 
   * New ||#indexonly# command added to xmltv_id value for ignoring detail page grabbing of specified channels
