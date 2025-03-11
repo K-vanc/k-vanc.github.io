@@ -1,6 +1,21 @@
 ### Tempest Changelog
 -----------------------
 
+## rv2.4.0.0
+
+  * New Filler Show options added into Configurator for filling time gaps between shows or in case of a failure on channel grabbing 
+  * Minor bug fixed on Inverter module path parsing with square brackets([]) on regex patterns
+  * Minor bug fixed on ||#convert# command
+  * Minor bug fixed on ||#include# command
+  * Minor bug fixed on ||#exclude# command
+  * Improvement on EPG Generator performance
+  * Improvement on XMLMerger module error handling
+  * Improvement on Fusion module channel logo reloading for dynamic logo grabbing siteconfigs
+  * Improvement on date calculations
+  * Improvement on Image element
+  * Improvement on session handling on GUI mode
+  * Predefined user-agent string updated to the latest Chrome
+
 ## rv2.3.0.0
 
   * Moderate bug fixed on Synchrotron module which effects docker container
@@ -24,8 +39,8 @@
   * Improvement on multiple element grabbers
   * Inverter-path box switched to textarea tag for multiline support and easier usage
   * Predefined error-reporting level updated to display fatal errors
-  * Predefined user-agent string updated to latest Chrome
-
+  * Predefined user-agent string updated to the latest Chrome
+  
 ## rv2.2.0.0
 
   * New ||#indexonly# command added to xmltv_id value for ignoring detail page grabbing of specified channels
@@ -33,7 +48,7 @@
   * Moderate bug fixed on file downloaders which prevents downloading of requested file(s)
   * Some improvements on post data handling (\r\t|\xr\xt)
   * Some improvements for better php8 integration
-  * Predefined user-agent string updated to latest Chrome
+  * Predefined user-agent string updated to the latest Chrome
 
 ## rv2.1.0.0
 
@@ -52,7 +67,7 @@
   * Configurator form delay options changed to numeric input format
   * Index and Detail Page delay options added into Debugger
   * Predefined user-agent string usage prioritized when no string defined in siteconfig and configuration files
-  * Predefined user-agent string updated to latest Chrome
+  * Predefined user-agent string updated to the latest Chrome
 
 ## rv2.0.0.0
 
@@ -65,7 +80,7 @@
   * Minor bug fixed on Fusion module
   * Minor bug fixed on auto-correction function of showicon element
   * Minor bug fixed on culture settings
-  * Predefined user-agent string updated to latest Chrome
+  * Predefined user-agent string updated to the latest Chrome
   
 ## rv1.7.0.0
 
@@ -77,7 +92,7 @@
   * Minor bug fixed on Siteconfig Debugger
   * Minor bug fixed on Rating Icons
   * Minor bug fixed on Cookie headers
-  * Predefined user-agent string updated to latest Chrome
+  * Predefined user-agent string updated to the latest Chrome
   * Improvement on Missing Module Checker for hosting service
   * Improvement on speed and memory usage of Inverter Module
   * Improvement on Url Grabbers
@@ -122,7 +137,7 @@
   * Some improvements for grabbing engine
   * Relaxation on file naming(siteconfig, epg file etc.) for Non-Basic Latin Unicode blocks
   * Jquery library is updated to latest version
-  * Predefined user-agent string updated to latest Chrome
+  * Predefined user-agent string updated to the latest Chrome
 
 ## rv1.6.0.0
 
@@ -149,7 +164,7 @@
   * Minor bug fixed on Channel Creation Debugger
   * Some improvement for php8 integration
   * Some improvement on set command for channel creation
-  * Predefined user-agent string updated to latest Chrome
+  * Predefined user-agent string updated to the latest Chrome
   
 ## rv1.5.2.0
 
@@ -160,7 +175,7 @@
   * Minor bug on Siteconfig Maker/Editor fixed
   * Moderate improvement on Module Checker
   * Moderate improvement for php8 integration
-  * Predefined user-agent string updated to latest Chrome
+  * Predefined user-agent string updated to the latest Chrome
 
 ## rv1.5.1.0
 
@@ -181,7 +196,7 @@
   * New CLI (Command Line Interface) option added for channel creation operations
   * New Siteconfig Updater module added to download latest siteconfig package as zip file to local storage
   * Post data handling for new line feeds improved (\n|\xn)
-  * Predefined user-agent string updated to latest Chrome
+  * Predefined user-agent string updated to the latest Chrome
   * Minor improvement on grabbing engine for show times
   * Minor improvement for mobile device screens
   * Minor improvement on Debugger for show element display
@@ -226,7 +241,7 @@
   * New channel-lister option added to Tempest Configurator in order to move channel tags to top of generated file for using with old and/or improperly coded applications which cannot parse channels unless they are in a fixed top position
   * Sameas/offset command time values changed to minute for more precision on adjustment
   * Minor improvement on url/stop date calculations
-  * Predefined user-agent string updated to latest Chrome
+  * Predefined user-agent string updated to the latest Chrome
 
 ## rv1.3.4.2
 
